@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57D352211AA31E62002106C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D352201AA31E62002106C1 /* main.m */; };
+		57D352241AA31E62002106C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D352231AA31E62002106C1 /* AppDelegate.m */; };
+		57D352271AA31E62002106C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D352261AA31E62002106C1 /* ViewController.m */; };
+		57D3522A1AA31E62002106C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D352281AA31E62002106C1 /* Main.storyboard */; };
+		57D3522C1AA31E62002106C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D3522B1AA31E62002106C1 /* Images.xcassets */; };
+		57D3522F1AA31E62002106C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57D3522D1AA31E62002106C1 /* LaunchScreen.xib */; };
+		57D3523B1AA31E62002106C1 /* SpottusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D3523A1AA31E62002106C1 /* SpottusTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57D352351AA31E62002106C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57D352131AA31E61002106C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57D3521A1AA31E61002106C1;
+			remoteInfo = Spottus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57D3521B1AA31E61002106C1 /* Spottus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spottus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D3521F1AA31E62002106C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D352201AA31E62002106C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57D352221AA31E62002106C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57D352231AA31E62002106C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57D352251AA31E62002106C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57D352261AA31E62002106C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57D352291AA31E62002106C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57D3522B1AA31E62002106C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		57D3522E1AA31E62002106C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		57D352341AA31E62002106C1 /* SpottusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpottusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D352391AA31E62002106C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D3523A1AA31E62002106C1 /* SpottusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpottusTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57D352181AA31E61002106C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D352311AA31E62002106C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57D352121AA31E61002106C1 = {
+			isa = PBXGroup;
+			children = (
+				57D3521D1AA31E61002106C1 /* Spottus */,
+				57D352371AA31E62002106C1 /* SpottusTests */,
+				57D3521C1AA31E61002106C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57D3521C1AA31E61002106C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57D3521B1AA31E61002106C1 /* Spottus.app */,
+				57D352341AA31E62002106C1 /* SpottusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57D3521D1AA31E61002106C1 /* Spottus */ = {
+			isa = PBXGroup;
+			children = (
+				57D352221AA31E62002106C1 /* AppDelegate.h */,
+				57D352231AA31E62002106C1 /* AppDelegate.m */,
+				57D352251AA31E62002106C1 /* ViewController.h */,
+				57D352261AA31E62002106C1 /* ViewController.m */,
+				57D352281AA31E62002106C1 /* Main.storyboard */,
+				57D3522B1AA31E62002106C1 /* Images.xcassets */,
+				57D3522D1AA31E62002106C1 /* LaunchScreen.xib */,
+				57D3521E1AA31E62002106C1 /* Supporting Files */,
+			);
+			path = Spottus;
+			sourceTree = "<group>";
+		};
+		57D3521E1AA31E62002106C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57D3521F1AA31E62002106C1 /* Info.plist */,
+				57D352201AA31E62002106C1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57D352371AA31E62002106C1 /* SpottusTests */ = {
+			isa = PBXGroup;
+			children = (
+				57D3523A1AA31E62002106C1 /* SpottusTests.m */,
+				57D352381AA31E62002106C1 /* Supporting Files */,
+			);
+			path = SpottusTests;
+			sourceTree = "<group>";
+		};
+		57D352381AA31E62002106C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57D352391AA31E62002106C1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57D3521A1AA31E61002106C1 /* Spottus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D3523E1AA31E62002106C1 /* Build configuration list for PBXNativeTarget "Spottus" */;
+			buildPhases = (
+				57D352171AA31E61002106C1 /* Sources */,
+				57D352181AA31E61002106C1 /* Frameworks */,
+				57D352191AA31E61002106C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spottus;
+			productName = Spottus;
+			productReference = 57D3521B1AA31E61002106C1 /* Spottus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57D352331AA31E62002106C1 /* SpottusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D352411AA31E62002106C1 /* Build configuration list for PBXNativeTarget "SpottusTests" */;
+			buildPhases = (
+				57D352301AA31E62002106C1 /* Sources */,
+				57D352311AA31E62002106C1 /* Frameworks */,
+				57D352321AA31E62002106C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57D352361AA31E62002106C1 /* PBXTargetDependency */,
+			);
+			name = SpottusTests;
+			productName = SpottusTests;
+			productReference = 57D352341AA31E62002106C1 /* SpottusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57D352131AA31E61002106C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Irwin Gonzales";
+				TargetAttributes = {
+					57D3521A1AA31E61002106C1 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					57D352331AA31E62002106C1 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 57D3521A1AA31E61002106C1;
+					};
+				};
+			};
+			buildConfigurationList = 57D352161AA31E61002106C1 /* Build configuration list for PBXProject "Spottus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57D352121AA31E61002106C1;
+			productRefGroup = 57D3521C1AA31E61002106C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57D3521A1AA31E61002106C1 /* Spottus */,
+				57D352331AA31E62002106C1 /* SpottusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57D352191AA31E61002106C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D3522A1AA31E62002106C1 /* Main.storyboard in Resources */,
+				57D3522F1AA31E62002106C1 /* LaunchScreen.xib in Resources */,
+				57D3522C1AA31E62002106C1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D352321AA31E62002106C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57D352171AA31E61002106C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D352271AA31E62002106C1 /* ViewController.m in Sources */,
+				57D352241AA31E62002106C1 /* AppDelegate.m in Sources */,
+				57D352211AA31E62002106C1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D352301AA31E62002106C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D3523B1AA31E62002106C1 /* SpottusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57D352361AA31E62002106C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57D3521A1AA31E61002106C1 /* Spottus */;
+			targetProxy = 57D352351AA31E62002106C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57D352281AA31E62002106C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57D352291AA31E62002106C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57D3522D1AA31E62002106C1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57D3522E1AA31E62002106C1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57D3523C1AA31E62002106C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57D3523D1AA31E62002106C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57D3523F1AA31E62002106C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spottus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57D352401AA31E62002106C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spottus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		57D352421AA31E62002106C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpottusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spottus.app/Spottus";
+			};
+			name = Debug;
+		};
+		57D352431AA31E62002106C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpottusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spottus.app/Spottus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57D352161AA31E61002106C1 /* Build configuration list for PBXProject "Spottus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D3523C1AA31E62002106C1 /* Debug */,
+				57D3523D1AA31E62002106C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57D3523E1AA31E62002106C1 /* Build configuration list for PBXNativeTarget "Spottus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D3523F1AA31E62002106C1 /* Debug */,
+				57D352401AA31E62002106C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57D352411AA31E62002106C1 /* Build configuration list for PBXNativeTarget "SpottusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D352421AA31E62002106C1 /* Debug */,
+				57D352431AA31E62002106C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57D352131AA31E61002106C1 /* Project object */;
+}
