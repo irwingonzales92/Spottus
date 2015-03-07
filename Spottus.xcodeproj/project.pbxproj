@@ -9,11 +9,37 @@
 /* Begin PBXBuildFile section */
 		57D352211AA31E62002106C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D352201AA31E62002106C1 /* main.m */; };
 		57D352241AA31E62002106C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D352231AA31E62002106C1 /* AppDelegate.m */; };
-		57D352271AA31E62002106C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D352261AA31E62002106C1 /* ViewController.m */; };
+		57D352271AA31E62002106C1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D352261AA31E62002106C1 /* RootViewController.m */; };
 		57D3522A1AA31E62002106C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D352281AA31E62002106C1 /* Main.storyboard */; };
 		57D3522C1AA31E62002106C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D3522B1AA31E62002106C1 /* Images.xcassets */; };
 		57D3522F1AA31E62002106C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57D3522D1AA31E62002106C1 /* LaunchScreen.xib */; };
 		57D3523B1AA31E62002106C1 /* SpottusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D3523A1AA31E62002106C1 /* SpottusTests.m */; };
+		57D352461AA32600002106C1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D352451AA32600002106C1 /* AudioToolbox.framework */; };
+		57D352481AA32608002106C1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D352471AA32608002106C1 /* CFNetwork.framework */; };
+		57D3524A1AA32613002106C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D352491AA32613002106C1 /* CoreGraphics.framework */; };
+		57D3524C1AA3261D002106C1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D3524B1AA3261D002106C1 /* CoreLocation.framework */; };
+		57D3524E1AA32628002106C1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D3524D1AA32628002106C1 /* MobileCoreServices.framework */; };
+		57D352501AA32660002106C1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D3524F1AA32660002106C1 /* QuartzCore.framework */; };
+		57D352521AA32669002106C1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D352511AA32669002106C1 /* Security.framework */; };
+		57D352541AA32670002106C1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D352531AA32670002106C1 /* StoreKit.framework */; };
+		57D352561AA3267E002106C1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D352551AA3267E002106C1 /* SystemConfiguration.framework */; };
+		57D352581AA3268D002106C1 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D352571AA3268D002106C1 /* libz.dylib */; };
+		57D3525A1AA326A8002106C1 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D352591AA326A8002106C1 /* libsqlite3.dylib */; };
+		57D352621AA326E6002106C1 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D3525D1AA326E6002106C1 /* Bolts.framework */; };
+		57D352631AA326E6002106C1 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D3525E1AA326E6002106C1 /* Parse.framework */; };
+		57D352641AA326E6002106C1 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D3525F1AA326E6002106C1 /* ParseCrashReporting.framework */; };
+		57D352651AA326E6002106C1 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D352601AA326E6002106C1 /* ParseFacebookUtils.framework */; };
+		57D352661AA326E6002106C1 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D352611AA326E6002106C1 /* ParseUI.framework */; };
+		57D355281AA41F37002106C1 /* SpotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D355271AA41F37002106C1 /* SpotViewController.m */; };
+		57D3552B1AA41F70002106C1 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D3552A1AA41F70002106C1 /* MapViewController.m */; };
+		57D3552F1AA50D14002106C1 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D3552E1AA50D14002106C1 /* LogInViewController.m */; };
+		57D355321AA50DFD002106C1 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D355311AA50DFD002106C1 /* SignUpViewController.m */; };
+		57D3553E1AA6C18E002106C1 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D3553D1AA6C18E002106C1 /* Singleton.m */; };
+		57D355411AA6C2B0002106C1 /* AddSpotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D355401AA6C2B0002106C1 /* AddSpotViewController.m */; };
+		57D355461AA7794F002106C1 /* UserOnboardingOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D355451AA7794F002106C1 /* UserOnboardingOneViewController.m */; };
+		57D3554A1AA77AFD002106C1 /* UserOnboardingTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D355491AA77AFD002106C1 /* UserOnboardingTwoViewController.m */; };
+		57D3554D1AA784D0002106C1 /* UserOnboardingThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D3554C1AA784D0002106C1 /* UserOnboardingThreeViewController.m */; };
+		57D355511AA7864A002106C1 /* UserOnboardingFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D355501AA7864A002106C1 /* UserOnboardingFourViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +58,50 @@
 		57D352201AA31E62002106C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		57D352221AA31E62002106C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		57D352231AA31E62002106C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		57D352251AA31E62002106C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		57D352261AA31E62002106C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57D352251AA31E62002106C1 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		57D352261AA31E62002106C1 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		57D352291AA31E62002106C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57D3522B1AA31E62002106C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		57D3522E1AA31E62002106C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		57D352341AA31E62002106C1 /* SpottusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpottusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D352391AA31E62002106C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57D3523A1AA31E62002106C1 /* SpottusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpottusTests.m; sourceTree = "<group>"; };
+		57D352451AA32600002106C1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		57D352471AA32608002106C1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		57D352491AA32613002106C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		57D3524B1AA3261D002106C1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		57D3524D1AA32628002106C1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		57D3524F1AA32660002106C1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		57D352511AA32669002106C1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		57D352531AA32670002106C1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		57D352551AA3267E002106C1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		57D352571AA3268D002106C1 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		57D352591AA326A8002106C1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		57D3525D1AA326E6002106C1 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		57D3525E1AA326E6002106C1 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		57D3525F1AA326E6002106C1 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		57D352601AA326E6002106C1 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		57D352611AA326E6002106C1 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		57D355261AA41F37002106C1 /* SpotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotViewController.h; sourceTree = "<group>"; };
+		57D355271AA41F37002106C1 /* SpotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpotViewController.m; sourceTree = "<group>"; };
+		57D355291AA41F70002106C1 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		57D3552A1AA41F70002106C1 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		57D3552D1AA50D14002106C1 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		57D3552E1AA50D14002106C1 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		57D355301AA50DFD002106C1 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		57D355311AA50DFD002106C1 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		57D3553C1AA6C18E002106C1 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		57D3553D1AA6C18E002106C1 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		57D3553F1AA6C2B0002106C1 /* AddSpotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSpotViewController.h; sourceTree = "<group>"; };
+		57D355401AA6C2B0002106C1 /* AddSpotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSpotViewController.m; sourceTree = "<group>"; };
+		57D355441AA7794F002106C1 /* UserOnboardingOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserOnboardingOneViewController.h; sourceTree = "<group>"; };
+		57D355451AA7794F002106C1 /* UserOnboardingOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserOnboardingOneViewController.m; sourceTree = "<group>"; };
+		57D355481AA77AFD002106C1 /* UserOnboardingTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserOnboardingTwoViewController.h; sourceTree = "<group>"; };
+		57D355491AA77AFD002106C1 /* UserOnboardingTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserOnboardingTwoViewController.m; sourceTree = "<group>"; };
+		57D3554B1AA784D0002106C1 /* UserOnboardingThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserOnboardingThreeViewController.h; path = Spottus/UserOnboardingThreeViewController.h; sourceTree = "<group>"; };
+		57D3554C1AA784D0002106C1 /* UserOnboardingThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserOnboardingThreeViewController.m; path = Spottus/UserOnboardingThreeViewController.m; sourceTree = "<group>"; };
+		57D3554F1AA7864A002106C1 /* UserOnboardingFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserOnboardingFourViewController.h; sourceTree = "<group>"; };
+		57D355501AA7864A002106C1 /* UserOnboardingFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserOnboardingFourViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +109,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D3525A1AA326A8002106C1 /* libsqlite3.dylib in Frameworks */,
+				57D352581AA3268D002106C1 /* libz.dylib in Frameworks */,
+				57D352561AA3267E002106C1 /* SystemConfiguration.framework in Frameworks */,
+				57D352621AA326E6002106C1 /* Bolts.framework in Frameworks */,
+				57D352541AA32670002106C1 /* StoreKit.framework in Frameworks */,
+				57D352641AA326E6002106C1 /* ParseCrashReporting.framework in Frameworks */,
+				57D352661AA326E6002106C1 /* ParseUI.framework in Frameworks */,
+				57D352521AA32669002106C1 /* Security.framework in Frameworks */,
+				57D352631AA326E6002106C1 /* Parse.framework in Frameworks */,
+				57D352651AA326E6002106C1 /* ParseFacebookUtils.framework in Frameworks */,
+				57D352501AA32660002106C1 /* QuartzCore.framework in Frameworks */,
+				57D3524E1AA32628002106C1 /* MobileCoreServices.framework in Frameworks */,
+				57D3524C1AA3261D002106C1 /* CoreLocation.framework in Frameworks */,
+				57D3524A1AA32613002106C1 /* CoreGraphics.framework in Frameworks */,
+				57D352481AA32608002106C1 /* CFNetwork.framework in Frameworks */,
+				57D352461AA32600002106C1 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +144,8 @@
 				57D3521D1AA31E61002106C1 /* Spottus */,
 				57D352371AA31E62002106C1 /* SpottusTests */,
 				57D3521C1AA31E61002106C1 /* Products */,
+				57D3525B1AA326BD002106C1 /* Extra Frameworks */,
+				57D3525C1AA326E6002106C1 /* parse-library-1 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +161,13 @@
 		57D3521D1AA31E61002106C1 /* Spottus */ = {
 			isa = PBXGroup;
 			children = (
-				57D352221AA31E62002106C1 /* AppDelegate.h */,
-				57D352231AA31E62002106C1 /* AppDelegate.m */,
-				57D352251AA31E62002106C1 /* ViewController.h */,
-				57D352261AA31E62002106C1 /* ViewController.m */,
-				57D352281AA31E62002106C1 /* Main.storyboard */,
+				57D3554E1AA784DB002106C1 /* AppDelegates */,
+				57D352441AA31F25002106C1 /* Storyboard */,
+				57D355431AA77912002106C1 /* Log In ViewControllers */,
+				57D355471AA77969002106C1 /* Onboarding ViewControllers */,
+				57D3552C1AA508DB002106C1 /* App Function ViewControllers */,
+				57D355421AA6CCF8002106C1 /* Objects */,
+				57D3553B1AA6333A002106C1 /* Later View Controllers */,
 				57D3522B1AA31E62002106C1 /* Images.xcassets */,
 				57D3522D1AA31E62002106C1 /* LaunchScreen.xib */,
 				57D3521E1AA31E62002106C1 /* Supporting Files */,
@@ -117,6 +199,111 @@
 				57D352391AA31E62002106C1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57D352441AA31F25002106C1 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				57D352281AA31E62002106C1 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		57D3525B1AA326BD002106C1 /* Extra Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57D352591AA326A8002106C1 /* libsqlite3.dylib */,
+				57D352571AA3268D002106C1 /* libz.dylib */,
+				57D352551AA3267E002106C1 /* SystemConfiguration.framework */,
+				57D352531AA32670002106C1 /* StoreKit.framework */,
+				57D352511AA32669002106C1 /* Security.framework */,
+				57D3524F1AA32660002106C1 /* QuartzCore.framework */,
+				57D3524D1AA32628002106C1 /* MobileCoreServices.framework */,
+				57D3524B1AA3261D002106C1 /* CoreLocation.framework */,
+				57D352491AA32613002106C1 /* CoreGraphics.framework */,
+				57D352471AA32608002106C1 /* CFNetwork.framework */,
+				57D352451AA32600002106C1 /* AudioToolbox.framework */,
+			);
+			name = "Extra Frameworks";
+			sourceTree = "<group>";
+		};
+		57D3525C1AA326E6002106C1 /* parse-library-1 */ = {
+			isa = PBXGroup;
+			children = (
+				57D3525D1AA326E6002106C1 /* Bolts.framework */,
+				57D3525E1AA326E6002106C1 /* Parse.framework */,
+				57D3525F1AA326E6002106C1 /* ParseCrashReporting.framework */,
+				57D352601AA326E6002106C1 /* ParseFacebookUtils.framework */,
+				57D352611AA326E6002106C1 /* ParseUI.framework */,
+			);
+			path = "parse-library-1";
+			sourceTree = "<group>";
+		};
+		57D3552C1AA508DB002106C1 /* App Function ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				57D352251AA31E62002106C1 /* RootViewController.h */,
+				57D352261AA31E62002106C1 /* RootViewController.m */,
+				57D355291AA41F70002106C1 /* MapViewController.h */,
+				57D3552A1AA41F70002106C1 /* MapViewController.m */,
+				57D3553F1AA6C2B0002106C1 /* AddSpotViewController.h */,
+				57D355401AA6C2B0002106C1 /* AddSpotViewController.m */,
+			);
+			name = "App Function ViewControllers";
+			sourceTree = "<group>";
+		};
+		57D3553B1AA6333A002106C1 /* Later View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				57D355261AA41F37002106C1 /* SpotViewController.h */,
+				57D355271AA41F37002106C1 /* SpotViewController.m */,
+			);
+			name = "Later View Controllers";
+			sourceTree = "<group>";
+		};
+		57D355421AA6CCF8002106C1 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				57D3553C1AA6C18E002106C1 /* Singleton.h */,
+				57D3553D1AA6C18E002106C1 /* Singleton.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		57D355431AA77912002106C1 /* Log In ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				57D3552D1AA50D14002106C1 /* LogInViewController.h */,
+				57D3552E1AA50D14002106C1 /* LogInViewController.m */,
+				57D355301AA50DFD002106C1 /* SignUpViewController.h */,
+				57D355311AA50DFD002106C1 /* SignUpViewController.m */,
+			);
+			name = "Log In ViewControllers";
+			sourceTree = "<group>";
+		};
+		57D355471AA77969002106C1 /* Onboarding ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				57D355441AA7794F002106C1 /* UserOnboardingOneViewController.h */,
+				57D355451AA7794F002106C1 /* UserOnboardingOneViewController.m */,
+				57D355481AA77AFD002106C1 /* UserOnboardingTwoViewController.h */,
+				57D355491AA77AFD002106C1 /* UserOnboardingTwoViewController.m */,
+				57D3554B1AA784D0002106C1 /* UserOnboardingThreeViewController.h */,
+				57D3554C1AA784D0002106C1 /* UserOnboardingThreeViewController.m */,
+				57D3554F1AA7864A002106C1 /* UserOnboardingFourViewController.h */,
+				57D355501AA7864A002106C1 /* UserOnboardingFourViewController.m */,
+			);
+			name = "Onboarding ViewControllers";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		57D3554E1AA784DB002106C1 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				57D352221AA31E62002106C1 /* AppDelegate.h */,
+				57D352231AA31E62002106C1 /* AppDelegate.m */,
+			);
+			name = AppDelegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +406,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57D352271AA31E62002106C1 /* ViewController.m in Sources */,
+				57D355281AA41F37002106C1 /* SpotViewController.m in Sources */,
+				57D355461AA7794F002106C1 /* UserOnboardingOneViewController.m in Sources */,
+				57D3553E1AA6C18E002106C1 /* Singleton.m in Sources */,
+				57D352271AA31E62002106C1 /* RootViewController.m in Sources */,
+				57D355511AA7864A002106C1 /* UserOnboardingFourViewController.m in Sources */,
+				57D3552F1AA50D14002106C1 /* LogInViewController.m in Sources */,
+				57D3552B1AA41F70002106C1 /* MapViewController.m in Sources */,
+				57D355411AA6C2B0002106C1 /* AddSpotViewController.m in Sources */,
+				57D3554D1AA784D0002106C1 /* UserOnboardingThreeViewController.m in Sources */,
 				57D352241AA31E62002106C1 /* AppDelegate.m in Sources */,
+				57D355321AA50DFD002106C1 /* SignUpViewController.m in Sources */,
 				57D352211AA31E62002106C1 /* main.m in Sources */,
+				57D3554A1AA77AFD002106C1 /* UserOnboardingTwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +540,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1",
+				);
 				INFOPLIST_FILE = Spottus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +554,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1",
+				);
 				INFOPLIST_FILE = Spottus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +617,7 @@
 				57D352401AA31E62002106C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57D352411AA31E62002106C1 /* Build configuration list for PBXNativeTarget "SpottusTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +626,7 @@
 				57D352431AA31E62002106C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
